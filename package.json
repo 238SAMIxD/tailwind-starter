@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "npx tailwind -i .\\src\\styles.css -o .\\public\\styles.css"
+    "build": "npx tailwindcss -i .\\src\\styles.css -o .\\public\\styles.css"
   },
   "repository": {
     "type": "git",
