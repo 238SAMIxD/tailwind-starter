@@ -576,6 +576,10 @@ video {
   display: block;
 }
 
+.flex{
+  display: flex;
+}
+
 .table{
   display: table;
 }
@@ -594,6 +598,18 @@ video {
 
 .resize{
   resize: both;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-around{
+  justify-content: space-around;
+}
+
+.gap-2{
+  gap: 0.5rem;
 }
 
 .border-2{
@@ -623,6 +639,10 @@ video {
 
 .pb-2{
   padding-bottom: 0.5rem;
+}
+
+.align-middle{
+  vertical-align: middle;
 }
 
 .font-serif{
