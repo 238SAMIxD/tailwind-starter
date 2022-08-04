@@ -4,7 +4,7 @@
   "description": "Repository created for TaliwindCSS learning purposes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
     "learning"
   ],
   "author": "Samuel Jędrzejewski",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node": "^18.7.0",
+    "tailwind": "^4.0.0"
+  }
 }
