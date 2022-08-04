@@ -729,6 +729,10 @@ video {
   padding: 0.75rem;
 }
 
+.p-6{
+  padding: 1.5rem;
+}
+
 .p-2{
   padding: 0.5rem;
 }
@@ -740,6 +744,10 @@ video {
 
 .pb-2{
   padding-bottom: 0.5rem;
+}
+
+.pl-6{
+  padding-left: 1.5rem;
 }
 
 .align-middle{
@@ -889,6 +897,21 @@ video {
   letter-spacing: 0.05em;
   --tw-text-opacity: 1;
   color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+
+.zgrajsie::before{
+  position: absolute;
+  left: 0.25rem;
+  display: inline-block;
+  aspect-ratio: 1 / 1;
+  width: 1.5rem;
+  border-radius: 0.125rem;
+  content: '';
+  background-image: url('https://zgrajsie.com/zgraj%20sie.jpg');
+  background-position: center;
+  background-size: contain;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 @media (min-width: 640px){
