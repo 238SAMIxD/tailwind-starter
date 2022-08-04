@@ -4,7 +4,8 @@
   "description": "Repository created for TaliwindCSS learning purposes.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "npx tailwind -i .\\src\\styles.css -o .\\public\\styles.css"
   },
   "repository": {
     "type": "git",
