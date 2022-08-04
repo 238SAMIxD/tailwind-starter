@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-starter",
+  "version": "1.0.0",
+  "description": "Repository created for TaliwindCSS learning purposes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://10.66.156.31:3000/238samixd/tailwind-starter.git"
+  },
+  "keywords": [
+    "css",
+    "tailwind",
+    "learning"
+  ],
+  "author": "Samuel Jędrzejewski",
+  "license": "ISC"
+}
