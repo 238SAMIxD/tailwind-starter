@@ -374,6 +374,9 @@ module.exports = {
         '"Courier New"',
         'monospace',
       ],
+      raleway: [
+        'Raleway'
+      ]
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
