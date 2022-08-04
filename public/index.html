@@ -6,26 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TailwindCSS</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
 </head>
 <body class="text-gray-400">
     <div>
         <div>
             <nav>
-                <div>
-                    <h1 class="uppercase font-bold p-4 border-b-2 text-10xl font-serif"><a href="">Learning</a></h1>
+                <div class="flex justify-between align-middle">
+                    <h1 class="uppercase font-bold p-4 border-b-2 text-lg font-serif"><a href="">Learning</a></h1>
+                    <div class="menu">
+                        MENU
+                    </div>
                 </div>
-                <ul>
-                    <li>
+                <ul class="md:flex gap-5 ml-2 align-end justify-center hidden w-fit float-right">
+                    <li class="w-fit">
                         <a href="#">
                             <span class="font-mono">Home</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="w-fit">
                         <a href="#">
                             <span class="font-mono">About</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="w-fit">
                         <a href="#">
                             <span class="font-mono">Contact</span>
                         </a>

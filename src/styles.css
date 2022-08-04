@@ -25,3 +25,7 @@
     top: 50%;
     transform: translateY(-50%);
 }
+
+.menu {
+    @apply px-4 cursor-pointer md:hidden
+}
